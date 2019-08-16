@@ -1,0 +1,18 @@
+/Users/cdarakjian/mongodb/bin/mongod.exe --dbpath=/Users/cdarakjian/mongodb-data
+
+C:\Program Files\MongoDB\Server\4.0\bin
+mongod.exe
+
+npm init -y
+
+npm i mongodb@3.1.10
+
+//cd into mongoNative and run in terminal:
+node mongodb.js
+
+//robo 3T
+db.version()
+
+http://mongodb.github.io/node-mongodb-native/3.2/api/
+//use link above to learn more about mongodb functions
+
