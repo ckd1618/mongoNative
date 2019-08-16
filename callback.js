@@ -1,12 +1,14 @@
-const passMeAFunction = (fun1) => {
+//the arguments reside here
+const aFuncThatAcceptsAFunc = (fun1) => {
     console.log("wait 1 sec...");
     setTimeout(() => {
         fun1(undefined, [1,2,3]);
     }, 1000)
 }
 
-//we are going to call the function "callthis" and pass into it another function
-passMeAFunction( (error, result) => {
+//the logic resides here
+//the if statement resides here to discern between error and response
+aFuncThatAcceptsAFunc( (error, result) => {
     if (error) {
         return console.log(error);
     }
