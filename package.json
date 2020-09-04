@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ckd1618/mongoNative#readme",
   "dependencies": {
-    "mongodb": "^3.1.10"
+    "mongodb": "^3.1.13"
   }
 }
